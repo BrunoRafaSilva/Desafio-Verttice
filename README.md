@@ -41,6 +41,6 @@ Requisitos:
 
 ## Programas necessários
 
-Desafio 1, 2, 3: Exigem o Node JS instalado na sua máquina para serem executados e também é recomendado o uso do Visual Studio Code.
+Desafio 1, 2, 3: Exigem o Node.js instalado na sua máquina para serem executados e também é recomendado o uso do Visual Studio Code.
 
 Desafio 4, 5: Necessário navegador instalado na máquina e recomendado acesso à internet para carregar fontes e ícones externos utilizados.
