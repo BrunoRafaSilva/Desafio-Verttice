@@ -1,7 +1,7 @@
 /* Contagem de caracteres ignorando o caracteres não alfanuméricos */
 
 /* Variavel contendo frase que irá ter a contagem de caracteres realizada */ 
-let texto = ".hello world. @";
+let texto = ".hello world. @12";
 
 /* Declaração de um objeto `Map` vazio */
 const contador = new Map();

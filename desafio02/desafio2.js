@@ -49,7 +49,7 @@ let orcamentoTotal = 0;
 
 /* Criado novo array de objetos que recebe o resultado da condicional do método `.filter`, que neste caso é uma função que insere no novo array todos os filmes com classificação superior a 7.0*/
 let filmesRenomados = listaDeFilmes.filter(function(filme) {
-    return filme.classificacao > 7;
+    return filme.classificacao >= 7.0;
 });
 
 /* O método `.forEach` está através da função de retorno percorrendo os objetos de `filmesRenomados` somando o orçamento de todos os filmes presentes nele a variavel `orçamentoTotal` */
