@@ -3,7 +3,7 @@
 ## Requisitos
 
 Para executar o programa desse desafio é necessário ter apenas um navegador instalado em seu celular ou Desktop e acessar o link(https://calculadorabrunosilva.netlify.app) ou abrir o `index.html`.
-Prints no final do README.
+Prints da aplicação no final do README.
 
 ## O Programa
 
@@ -22,4 +22,5 @@ Esse programa foi feito em JavaScript,HTML e CSS e utilizando a IDE Microsoft Vi
 
 Para visualisar esse programa web, basta fazer o download do projeto e abrir o arquivo `index.html` correspondente ao mesmo ou acessar o link do qual é possivel vê-lo em funcionamento (https://calculadorabrunosilva.netlify.app)
 
+## Prints
 ![Logo do R](http://developer.r-project.org/Logo/Rlogo-5.png)

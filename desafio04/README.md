@@ -3,7 +3,7 @@
 ## Requisitos
 
 Para executar o programa desse desafio é necessário ter apenas um navegador instalado em seu celular ou Desktop e acessar o link(https://listadetarefasbrunorlucena.netlify.app) ou abrir o `index.html`
-
+Prints da aplicação no final do README.
 ## O Programa
 
 Criação de uma lista de tarefas responsiva da qual é possivel adicionar item, remover item e ao marcar o item como feito(utilizando a checkbox da tarefa) o texto da tarefa será riscado, alterado de cor o texto e também a checkbox.
@@ -20,3 +20,6 @@ Esse programa foi feito em JavaScript,HTML e CSS e utilizando a IDE Microsoft Vi
 ## Abrir no navegador
 
 Para visualisar esse programa web, basta fazer o download do projeto e abrir o arquivo `index.html` correspondente ao mesmo ou acessar o link do qual é possivel vê-lo em funcionamento (https://listadetarefasbrunorlucena.netlify.app)
+
+## Prints
+![Modo Desktop](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio04/Prints/desktopMode.png?raw=true)
