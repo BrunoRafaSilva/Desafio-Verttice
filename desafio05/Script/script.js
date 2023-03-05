@@ -9,14 +9,14 @@ function appendToScreen(value) {
         return;
     }
 
-    // verificar se a tela está vazia e o valor a ser adicionado é um operador
+    /* verificar se a tela está vazia e o valor a ser adicionado é um operador, impedindo que o operador seja inserido antes de qualquer numero */
     else if (screen.value === '' && value.match(/[+\-*\/.]/)) {
         return; // impedir que o cálculo comece com um operador
     }
 
-    // verificar se o último caractere é um ponto e o próximo caractere também é um ponto
+    // verificar se o último caractere é um ponto e o próximo caractere também é um ponto, impedindo inserir dois pontos seguidos */
     else if (screen.value.charAt(screen.value.length - 1) === '.' && value === '.') {
-        return; // impedir a adição de dois pontos consecutivos
+        return;
     }
 
     screen.value += value;
@@ -24,19 +24,19 @@ function appendToScreen(value) {
 
 
 
-// limpar a tela da calculadora
+/* Limpa a tela da calculadora */
 function clearScreen() {
     screen.value = '';
 }
 
-// calcular o resultado da expressão na tela da calculadora
+/* Calcula a operação inserida na calculadora */
 function calculate() {
     let expression = screen.value;
     let result = eval(expression);
     screen.value = result;
 }
 
-/* Função para remover o ultimo ou operador inserido */
+/* Função para remover o ultimo número ou operador inserido */
 function deleteLastItem() {
     /* Verifica a `String` atual da tela */
     let currentString = screen.value;
@@ -53,12 +53,11 @@ document.addEventListener('keydown', keyBind => {
     if (keyBind.key.match(/[+\-*/.]/) || keyBind.key.match(/[0-9]/)) {
         appendToScreen(keyBind.key);
     } else if (keyBind.key == 'Enter') {
-        calculate()
+        calculate();
     } else if (keyBind.key == 'Backspace') {
-        deleteLastItem()
+        deleteLastItem();
     } else if (keyBind.key == 'Delete') {
-        clearScreen()
-    }
+        clearScreen();
+    } 
 });
-
-
+/* Acima foi configurado a utilização das teclas de 1-9, Enter, Backscape, Delete e operadores para serem utilizadas sem o uso do mouse*/

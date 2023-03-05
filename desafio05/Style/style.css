@@ -1,11 +1,14 @@
+/* Regras Universais, como largura e altura do elemento incluem seu preenchimento e bordas, evitando muito espaçamento e mais linhas de código */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Estilização e alinhamento do body */
 body {
   font-size: 16px;
-  font-family: sans-serif;
   height: 100%;
 
   background: #4c5958;
@@ -14,7 +17,7 @@ body {
   justify-content: center;
 }
 
-
+/* Estilização do input que esta servindo como tela */
 input {
   border: none;
   outline: none;
@@ -24,6 +27,7 @@ input:focus {
   outline: none;
 }
 
+/* Estilização dos elementos dentro da calculado, como a quantidade de elementos por linhas e sua posição */
 .calculator {
   background: #8aa6a3;
   display: grid;
@@ -31,14 +35,15 @@ input:focus {
   gap: 0.75rem;
   width: 325px;
   border: 1px solid #333;
-  padding: 0.75rem;
-  border-radius: 1rem;
+  padding: 12px;
+  border-radius: 16px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* Estilização da "tela" da calculadora*/
 .screen {
   grid-column: 1 / 5;
   border-radius: 0.75rem;
@@ -51,15 +56,17 @@ input:focus {
   cursor: default;
 }
 
+/*Cor do número da calculadora*/
 ::placeholder {
   color: #fff;
 }
 
-
+/* Estilização de todos os botões da calculadora abaixo, desde passar o mouse em cima, até a ação do click */
 .symbol,
 .number,
 .linkedin,
-.github {
+.github,
+a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,4 +108,25 @@ input:focus {
 
 #calcButton:active {
   background-color: orange;
+}
+
+/* Estilizações referentes ao rodapé da página*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #162b2e;
+}
+
+footer div {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  background-color: #162b2e;
 }

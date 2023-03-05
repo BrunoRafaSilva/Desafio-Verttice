@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-	<title>Calculadora</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="shortcut icon" href="Icon/icons8-calculator-64.png" type="image/x-icon">
 </head>
+
 <body>
-	<div class="calculator">
-		<input type="text" id="screen" class="screen" readonly placeholder="0">
 
+    <!-- Criação da div que ficará a calculadora -->
+    <div class="calculator">
+        <!--`Input` que será utilizado como tela da calculadora */-->
+        <input type="text" id="screen" class="screen" readonly placeholder="0">
+
+        <!-- Abaixo é inserido os botões da calculadora -->
         <div id="calcButton" class="symbol" onclick="clearScreen()">AC</div>
-		<div id="calcButton" class="symbol" onclick="deleteLastItem()">C</div>
-		<div id="calcButton" class="symbol" onclick="appendToScreen('/')">/</div>
-		<div id="calcButton" class="symbol" onclick="appendToScreen('*')">X</div>
-        
-		<div id="calcButton" class="number" onclick="appendToScreen('7')">7</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('8')">8</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('9')">9</div>
-		<div id="calcButton" class="symbol" onclick="appendToScreen('-')">-</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('4')">4</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('5')">5</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('6')">6</div>
-		<div id="calcButton" class="symbol" onclick="appendToScreen('+')">+</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('1')">1</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('2')">2</div>
-		<div id="calcButton" class="number" onclick="appendToScreen('3')">3</div>
-		<div id="calcButton" class="github" ><box-icon name='github' type='logo' color='#ffffff' ></box-icon></div>
+        <div id="calcButton" class="symbol" onclick="deleteLastItem()">C</div>
+        <div id="calcButton" class="symbol" onclick="appendToScreen('/')">/</div>
+        <div id="calcButton" class="symbol" onclick="appendToScreen('*')">X</div>
 
-        <div id="calcButton" class="linkedin"><box-icon name='linkedin' type='logo' color='#ffffff' ></box-icon></div>
+        <div id="calcButton" class="number" onclick="appendToScreen('7')">7</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('8')">8</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('9')">9</div>
+        <div id="calcButton" class="symbol" onclick="appendToScreen('-')">-</div>
+
+        <div id="calcButton" class="number" onclick="appendToScreen('4')">4</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('5')">5</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('6')">6</div>
+        <div id="calcButton" class="symbol" onclick="appendToScreen('+')">+</div>
+
+        <div id="calcButton" class="number" onclick="appendToScreen('1')">1</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('2')">2</div>
+        <div id="calcButton" class="number" onclick="appendToScreen('3')">3</div>
+        <div id="calcButton" class="github"><a href="https://github.com/BrunoRafaSilva" target="_blank"><box-icon
+                    name='github' type='logo' color='#ffffff'></box-icon></a></box-icon></div>
+
+        <div id="calcButton" class="linkedin"><a href="https://www.linkedin.com/in/brunorlsilva/"
+                target="_blank"><box-icon name='linkedin' type='logo' color='#ffffff'></a></box-icon></div>
         <div id="calcButton" class="number" onclick="appendToScreen('0')">0</div>
-		<div id="calcButton" class="symbol" onclick="appendToScreen('.')">.</div>
+        <div id="calcButton" class="symbol" onclick="appendToScreen('.')">.</div>
         <div id="calcButton" class="symbol" onclick="calculate()">=</div>
-	</div>
-	<script src="script.js"></script>
+    </div>
+
+    <footer>
+        <div>Site desenvolvido por Bruno Silva </div>
+    </footer>
+    <!– A referência do arquivo script está no final para que ele seja carregado por último, evitando erros durante
+        captura de eventos `EventListener` –>
+    <script src="Script/script.js"></script>
 </body>
 </html>
