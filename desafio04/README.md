@@ -22,6 +22,6 @@ Esse programa foi feito em JavaScript,HTML e CSS e utilizando a IDE Microsoft Vi
 Para visualisar esse programa web, basta fazer o download do projeto e abrir o arquivo `index.html` correspondente ao mesmo ou acessar o link do qual é possivel vê-lo em funcionamento (https://listadetarefasbrunorlucena.netlify.app)
 
 ## Prints
+![Validador](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio04/Prints/validator.png?raw=true)
 ![Modo Desktop](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio04/Prints/desktopMode.png?raw=true)
 ![Modo Mobile](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio04/Prints/mobileMode.png?raw=true)
-![Validador](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio04/Prints/validator.png?raw=true)
