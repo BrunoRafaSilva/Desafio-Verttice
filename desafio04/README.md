@@ -9,7 +9,7 @@ Instruções no final do README sobre como abrir no Noje.js.
 
 Criação de uma lista de tarefas responsiva da qual é possivel adicionar item, remover item e ao marcar o item como feito(utilizando a checkbox da tarefa) o texto da tarefa será riscado, alterado de cor o texto e também a checkbox.
 
-# LocalStorage
+### LocalStorage
 Os itens adicionados a essa lista ficam salvos no ```local.storage()``` do navegador, fazendo com que mesmo se a pagina foi reiniciada ou fecha e aberta as listas continuam lá e também é possivel utilizar a lixeira(localizada na parte superior, ao lado do titulo) para apagar todos os itens.
 
 Todo o código é extremamente comentado para que não haja dúvidas sobre as funcionalidades do mesmo, o tornando de fácil manutenção e implementação de novas funcionalidades.
