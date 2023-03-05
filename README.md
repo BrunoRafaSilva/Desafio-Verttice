@@ -13,6 +13,7 @@ Programa que receba um Array de objetos com informações de filmes e retorne o 
 ## Desafio 3
 
 Programa que receba um array de números inteiros e retorne o maior produto possível entre o maior e segundo maior números desse array.
+A função deve suportar arrays de qualquer tamanho (incluindo arrays vazios e com apenas um elemento), e deve ser eficiente em termos de tempo de execução e uso de memória.
 
 ## Desafio 4: Lista de Tarefas
 
