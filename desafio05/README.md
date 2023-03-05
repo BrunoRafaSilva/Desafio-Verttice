@@ -24,4 +24,4 @@ Para visualisar esse programa web, basta fazer o download do projeto e abrir o a
 
 ## Prints
 ![Modo Mobile](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio05/Prints/mobileMode.png?raw=true)
-"[Modo Desktop](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio05/Prints/desktopMode.png?raw=true)
+![Modo Desktop](https://github.com/BrunoRafaSilva/Desafio-Verttice/blob/main/desafio05/Prints/desktopMode.png?raw=true)
