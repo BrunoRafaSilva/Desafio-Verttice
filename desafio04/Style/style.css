@@ -115,7 +115,7 @@ button {
   outline: none;
   accent-color: currentcolor;
   appearance: none; /* Remove a aparência padrão */
-  background-color: aliceblue;
+  background-color: white;
   margin-left: 0px;
   border-radius: 50%;
   width: 30px;
