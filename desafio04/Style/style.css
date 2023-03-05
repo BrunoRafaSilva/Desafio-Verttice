@@ -105,7 +105,7 @@ button {
 /* Personalização da `div` que será inserida dinamicamente */
 .divLi span {
   width: 80%;
-  color: dimgray;
+  color: rgb(41, 19, 19);
   margin-left: 20px;
 }
 

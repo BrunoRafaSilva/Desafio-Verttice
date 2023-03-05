@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+	<div class="calculator">
+		<input type="text" id="screen" class="screen" readonly placeholder="0">
+
+        <div id="calcButton" class="symbol" onclick="clearScreen()">AC</div>
+		<div id="calcButton" class="symbol" onclick="deleteLastItem()">C</div>
+		<div id="calcButton" class="symbol" onclick="appendToScreen('/')">/</div>
+		<div id="calcButton" class="symbol" onclick="appendToScreen('*')">X</div>
+        
+		<div id="calcButton" class="number" onclick="appendToScreen('7')">7</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('8')">8</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('9')">9</div>
+		<div id="calcButton" class="symbol" onclick="appendToScreen('-')">-</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('4')">4</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('5')">5</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('6')">6</div>
+		<div id="calcButton" class="symbol" onclick="appendToScreen('+')">+</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('1')">1</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('2')">2</div>
+		<div id="calcButton" class="number" onclick="appendToScreen('3')">3</div>
+		<div id="calcButton" class="github" ><box-icon name='github' type='logo' color='#ffffff' ></box-icon></div>
+
+        <div id="calcButton" class="linkedin"><box-icon name='linkedin' type='logo' color='#ffffff' ></box-icon></div>
+        <div id="calcButton" class="number" onclick="appendToScreen('0')">0</div>
+		<div id="calcButton" class="symbol" onclick="appendToScreen('.')">.</div>
+        <div id="calcButton" class="symbol" onclick="calculate()">=</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

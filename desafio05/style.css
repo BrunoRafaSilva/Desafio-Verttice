@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  height: 100%;
+
+  background: #4c5958;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.calculator {
+  background: #8aa6a3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  width: 325px;
+  border: 1px solid #333;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.screen {
+  grid-column: 1 / 5;
+  border-radius: 0.75rem;
+  font-size: 2rem;
+  height: 6rem;
+  color: #fff;
+  background: #22312c;
+  text-align: end;
+  padding: 0.5rem;
+  cursor: default;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+
+.symbol,
+.number,
+.linkedin,
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  aspect-ratio: 1;
+  font-size: 1.25rem;
+  color: #fff;
+  transition: 0.15s ease;
+  cursor: pointer;
+}
+
+.symbol {
+  background: #10403b;
+}
+
+.symbol:hover {
+  background: #175852;
+}
+
+.number {
+  background: #127369;
+}
+
+.number:hover {
+  background: #3d928ac4;
+}
+
+.github {
+  background-color: black;
+}
+
+.linkedin {
+  background-color: #0277b7;
+}
+
+.github:hover {
+  opacity: 40;
+}
+
+#calcButton:active {
+  background-color: orange;
+}
