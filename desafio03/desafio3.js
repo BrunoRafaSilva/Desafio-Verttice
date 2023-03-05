@@ -1,7 +1,7 @@
 /* Função que recebe um array de numeros inteiros e retorna o maior produto possivel entre dois números desse array*/
 
 /* Criado `Array` preenchido com números inteiros e espaços vazios*/
-const numeros = [0,1,3,0,4,1,99,27,25];
+const numeros = [10, 3, 5, 6, 20];
 
 /* Criando e definindo duas variaveis com o valor inicial de zero */
 let maior = 0;
