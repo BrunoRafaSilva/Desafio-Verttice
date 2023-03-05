@@ -7,29 +7,9 @@ Instruções no final do README sobre como abrir no Noje.js.
 
 ## O Programa
 
-O programa foi desenvolvido para fazer a contagem de cada carácter em uma strings inserida pelo usuário, ignorando caracteres não alfanuméricos(@!?…). Exemplo:
+O programa foi desenvolvido para filtrar um array de filmes para somente os filmes com nota 7.0 ou superior e com isso somar o orçamento deles e no final informando o orçamento total desses filmes.
 
-```javascript
-let texto = ".hello world. @12";
-```
-Que retorna:
-
-```javascript
-Map(9) {
-'h' => 1,
-'e' => 1,
-'l' => 3,
-'o' => 2,
-'w' => 1,
-'r' => 1,
-'d' => 1,
-'1' => 1,
-'2' => 1
-}
-```
-
-
-Nesse desafio foram criados dois programas, sendo um deles que diferencia a contagem da letra maiúscula e da minuscula e o outro que conta as duas como uma letra só, tudo depende da finalidade da aplicação.
+Nesse desafio foi adicionado o método `.toLocaleStrin()` que converteu o valor de orçamento em dolar, facilitando a visualização do mesmo.
 
 O programa todo contém comentários sobre o funcionamento das funções.
 
@@ -45,7 +25,7 @@ Para executar um arquivo .js diretamente pelo Node.js, siga os seguintes passos:
 
 1. Abra um terminal ou prompt de comando.
 2. Navegue até o diretório onde o arquivo .js está localizado usando o comando cd (change directory). Por exemplo, se o arquivo estiver na pasta "documentos", digite o comando cd documentos.
-3. Digite o comando node desafio1.js(ou  para executar o arquivo. Substitua "nome-do-arquivo.js" pelo nome do JavaScript(desafio1.js ou desafio1SolucaoAlternativa.js).
+3. Digite o comando node desafio1.js(ou  para executar o arquivo. Substitua "nome-do-arquivo.js" pelo nome do JavaScript(desafio2.js).
 4. Pressione a tecla "Enter" para executar o comando.
 
 O Node.js irá executar o código JavaScript no arquivo e exibir a saída no terminal. Certifique-se de que o Node.js esteja instalado em sua máquina antes de executar o arquivo. Se você não tiver o Node.js instalado, pode baixá-lo do site oficial do Node.js.
