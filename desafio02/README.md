@@ -15,7 +15,7 @@ O programa todo contém comentários sobre o funcionamento das funções.
 
 ## Ferramentas
 
-Esse programa foi feito em JavaScript puro.
+Esse programa foi feito em JavaScript puro e utilizando a IDE Microsoft Visual Studio Code.
 
 ## Instalação do Node.js
 
