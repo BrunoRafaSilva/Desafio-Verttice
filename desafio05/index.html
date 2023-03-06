@@ -37,19 +37,18 @@
         <div id="calcButton" class="number" onclick="appendToScreen('1')">1</div>
         <div id="calcButton" class="number" onclick="appendToScreen('2')">2</div>
         <div id="calcButton" class="number" onclick="appendToScreen('3')">3</div>
-        <div id="calcButton" class="github"><a href="https://github.com/BrunoRafaSilva" target="_blank"><box-icon
-                    name='github' type='logo' color='#ffffff'></box-icon></a></box-icon></div>
+        <a href="https://github.com/BrunoRafaSilva" target="_blank"><div id="calcButton" class="github"><box-icon name='github' type='logo' color='#ffffff'></box-icon></box-icon></div></a>
 
-        <div id="calcButton" class="linkedin"><a href="https://www.linkedin.com/in/brunorlsilva/"
-                target="_blank"><box-icon name='linkedin' type='logo' color='#ffffff'></a></box-icon></div>
+       <a href="https://www.linkedin.com/in/brunorlsilva/"
+                target="_blank" class="linkedinLink"> <div id="calcButton" class="linkedin"><box-icon name='linkedin' type='logo' color='#ffffff'></box-icon></div></a>
         <div id="calcButton" class="number" onclick="appendToScreen('0')">0</div>
         <div id="calcButton" class="symbol" onclick="appendToScreen('.')">.</div>
         <div id="calcButton" class="symbol" onclick="calculate()">=</div>
     </div>
 
-    <footer>
+    <!--<footer>
         <div>Site desenvolvido por Bruno Silva </div>
-    </footer>
+    </footer>-->
     <!– A referência do arquivo script está no final para que ele seja carregado por último, evitando erros durante
         captura de eventos `EventListener` –>
     <script src="Script/script.js"></script>

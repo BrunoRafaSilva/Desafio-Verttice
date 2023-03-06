@@ -65,7 +65,7 @@ input:focus {
 .symbol,
 .number,
 .linkedin,
-.github,
+.github, .linkedinLink>div
 a {
   display: flex;
   align-items: center;
